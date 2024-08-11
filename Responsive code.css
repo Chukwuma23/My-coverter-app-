@@ -1,0 +1,399 @@
+
+@media only screen and (min-width:768px) and (max-width: 1025px) {
+    body{
+        font-size: 20px;
+        align-content: center;
+        margin: none;
+        padding: none;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    }
+        #settings {
+        right: -980px;
+    }
+    
+    #ToDoList-container {
+        right :-980px;
+    }
+    
+    #containerr{
+        display: none;
+    }
+    
+
+               #seCalculator{
+              display: none;
+              position: relative;
+              top: 0;
+              left: -350px;
+          }
+          
+
+
+    /*side menu*/  
+    ol img{
+        display:none;
+    }
+     
+      #acceleration{
+          right: 980px;
+      }
+      
+      #up-container{
+        display: block; 
+        
+      }
+      
+     nav ul{
+        position: relative;
+        width:0px;
+        height: 0px;
+        display: inline;
+        box-shadow: none;
+        top:-70px;
+        left:0px ;
+      
+      }
+      
+      nav ul ol{
+          position: relative;
+        display:inline;  
+        font-size: 29px;
+        margin: 2px;
+        padding: 8px;
+        border-radius: 20px; 
+        font-weight: 700;
+       
+      }
+      
+     
+      
+      
+      nav ul ol a:hover{
+        font-size:15px;
+        transition: 0.3s;
+        color:#EC6161;
+        overflow: hidden;
+      }
+      
+    
+      
+     
+     
+      #unit-A{
+        display: none;
+      }
+      
+      .icon{
+        display :none;
+      }
+      
+   
+      
+      /*menu list*/
+      .menu-list{
+     display:grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-gap: 100px;
+   
+     margin:120px;
+     position: relative;
+     left: 0px;
+     height: 400px;
+ }
+ 
+    .accele-img{
+     position: relative;
+     width: 90px; 
+     height:90px;
+     top: 20px;
+     left: 30px;
+ }
+ 
+     h2{
+     position: relative ;
+     top: 80px;
+     font-size: 17px
+ }
+ 
+    /*#calculator{
+        width: 70%;
+        height: 50vh;
+        top: 250px;
+        right: 150px;
+    }  */
+    h3{
+        display: none;
+    }
+    
+    
+    /**********calculator**************/
+    
+              #calculator{
+              
+           display: none;
+           box-shadow:  10px 50px 40px 700px rgba(0, 0, 0, 0.63);
+           border-radius: 40px;
+           z-index: 9;
+         
+           
+  animation: pop 0.60s ease-in-out;
+}
+/*.with-delay {
+  animation-delay: 0s;
+}*/
+@keyframes pop{
+  50%  {
+    transform: scale(1.25);
+  }
+}
+          
+    
+    #display{
+        background: #FFFFFF;
+        width: 90%;
+        height: 30vh;
+        left: 30px;
+        font-size: 85px;
+        
+        
+    }
+    
+     .calculator-buttons{
+    margin: 60px;
+    font-size: 30px;
+   grid-template-columns: repeat(4, 2fr);
+   gap: 20px;
+   }
+   
+   div button{
+    width:150px;
+    height :150px;
+    font-size:45px ;
+    position: relative;
+    left: -20px;
+    }
+    
+    .operator-btn{
+        font-size: 55px;
+    }
+     .operator-btn2{
+        font-size: 55px;
+    }
+    .operator{
+        font-size: 55px;
+    }
+    
+    
+    
+    
+      /******** stopwatch**********/
+              #containerr{
+              
+           display: none;
+           box-shadow:  10px 50px 40px 700px rgba(0, 0, 0, 0.63);
+           border-radius: 40px;
+           overflow: hidden;
+         
+           
+  animation: pop 0.60s ease-in-out;
+}
+/*.with-delay {
+  animation-delay: 0s;
+}*/
+@keyframes pop{
+  50%  {
+    transform: scale(1.25);
+  }
+}
+          
+          
+          
+   .digit { 
+    width: 400px;
+    font-size: 80px !important; 
+    color: #fff; 
+    top: 10px;
+    left: 0;
+    position: relative;
+} 
+
+  
+.txt { 
+    font-size: 22px; 
+    color: #FFFFFF; 
+    left: 0;
+    top: 0;
+} 
+
+  
+#buttons { 
+    position: relative;
+    bottom: 0px;
+    width:50px;
+    margin-top: 50px; 
+    
+} 
+
+  
+.btn3 { 
+
+    width: 360px; 
+    top: 650px;
+    left :390px;
+    font-size: 50px;
+} 
+
+
+  .btn1{
+     width: 360px; 
+     top: 800px;
+     font-size: 50px;
+
+    
+}  
+
+#stop{
+    display:none;
+}
+
+#resett{
+    display:none ;
+}
+
+#hr{
+    width:30px;
+    font-size: 90px;
+    font-weight: 500;
+}
+#min{
+    width:30px;
+    font-size: 40px;
+    font-weight: 500;
+}
+#sec{
+    width:30px;
+    font-size: 40px;
+    font-weight: 500;
+}
+#count{
+    width:30px;
+    font-size: 40px;
+    font-weight: 500;
+}
+.time-background{
+    background:#FF9803 ;
+    width: 90%;
+    height:120px;
+    top: 100px;
+    left: 35px;
+    border-radius: 30px;
+    
+}
+
+ .lapList{
+     position: absolute;
+     top:228px;
+     left :0px;
+     width:100%;
+     height:534px;
+     font-size: 20px;
+ }
+  
+ 
+  ol{
+      list-style-type: none;
+     position: relative;
+     
+      }
+      
+      .watch-icon1{
+          
+         
+          left:40px;
+          top: 20px;
+          z-index:9;
+      }
+      .stopwatch-h{
+          position: relative ;
+          color:#FFFFFF;
+          top:0px;
+          font-size: 40px;
+          left: 5px;
+      }
+      .slide{
+          right: -980px !important;
+         
+      }
+      
+      hr{
+          width: 90%;
+          background: #FF9803;
+      }
+      
+      /*********Timer********/
+           #tiimer{
+        
+        display: block;
+           box-shadow:  10px 50px 40px 700px rgba(0, 0, 0, 0.63);
+           border-radius: 40px;
+           
+         z-index: 9;
+           
+  animation: pop 0.60s ease-in-out;
+}
+/*.with-delay {
+  animation-delay: 0s;
+}*/
+@keyframes pop{
+  50%  {
+    transform: scale(1.25);
+  }
+}
+       #timer-input{
+    position: absolute;
+    left: 40px;
+    top: 90px;
+    background: #FF9D03;
+    width: 90%;
+    height: 200px;
+    }
+          
+        div input{
+            width: 150px;
+            height: 100px;
+            border-radius: 50px;
+            left: 75px;
+            top: 40px;
+        }  
+        
+        div span{
+            font-size: 70px;
+            left: 75px;
+            top: 50px;
+        }
+        
+          #timer{
+              width: 70%;
+            top:200px; 
+            left: 115px;
+            height:170px;
+        
+          }
+          
+           #timer{
+            font-size: 100px;  
+          }
+          
+          #start-button{
+            width: 400px; 
+            height: 100px;
+          }
+          
+          
+          #sec{
+              display: none;
+          }
+
+     }
+          
+     

@@ -1,0 +1,213 @@
+ #settings{
+      
+    position: fixed;
+    background: #FFFEFE; 
+    width: 100%;
+    height: 100vh;
+    top: 0px;
+    right: -360px;
+    z-index:9 ;
+    transition:0.4s ;
+    box-shadow: 1px 5px 6px #000;
+    text-align: left;
+    
+  }
+           .light-mode #menu-h2{
+               color:#FFFFFF;
+           }
+  #settings h2{
+    position: relative;
+    top: -50px;
+    left: 120px;
+    color:#FFFFFF;
+    font-size: 20px;
+  }
+  
+  #settings img{
+    position: relative;
+    left: 20px;
+    top: 10px;  
+      
+  }
+  
+
+  #checkbox {
+      position: relative;
+      top: 0;
+      left:0px;
+    margin: 10px;
+    padding: 0px;
+    font-size: 20px;
+
+  }
+  
+  #settings input{
+    left: 140px;
+    top: 10px;
+    width: 25px;
+  }
+  .setting-icon{
+      position: relative;
+      
+  }
+  .setting-container{
+    font-size: 20px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background: #FF9D03;
+    height: 60px;
+    color:#FFFFFF;
+    text-align: left;
+  }
+  
+     /*theme setting*/
+  body.dark-mode {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.dark-mode .converter-container {
+  background-color: #444;
+  border-color: #555;
+}
+
+.dark-mode .input-field {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode .button {
+  background-color: #555;
+  color: #fff;
+}
+
+/*Light Mode:*/
+
+body.light-mode {
+  background-color: #303030;
+  color: #FFFFFF;
+}
+
+.light-mode #acceleration {
+  background-color: #303030;
+  border-color: #DDDDDD;
+}
+
+.light-mode #resetButton{
+    box-shadow: 1px 5px 6px #FFFFFF;
+}
+
+.light-mode .input-field {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.light-mode .button {
+  background-color: #ddd;
+  color: #333;
+}
+
+.light-mode h2{
+    color:#FFFFFF;
+}
+.light-mode nav ul {
+  background:#303030;
+  color:#FFFFFF;
+  box-shadow:  0px 0px 0px 110px rgba(0, 0, 0, 0.63);
+  
+}
+.light-mode nav ul ol a{
+color: #FFFFFF;
+}
+
+.light-mode #calculator{
+    background: #000000;
+    color:#FFFFFF;
+}
+
+.light-mode #display{
+    background:#000000;
+    color:#FFFFFF;
+}
+
+.light-mode div button{
+    background: #000000;
+    box-shadow: 0px 1px 2px #FF9D03;
+    
+}
+
+.light-mode .cal-icon{
+    content: url("/icons8-back-arrow-50 (1).png");
+    
+}
+.light-mode #tiimer{
+    background: #303030;
+    color: #FFFFFF;
+}
+.light-mode  .lapList{
+    background: #303030;
+    color: #FFFFFF;
+}
+.light-mode #containerr{
+    background: #303030;
+}
+.light-mode #ToDoList-container {
+    background: #303030;
+    color:#FFFFFF;
+}
+
+.light-mode div li{
+    color:#FFFFFF;
+}
+
+.light-mode .todo-table{
+    background: #3F3F3F;
+    color: #FFFFFF;
+}
+.light-mode todo-table {
+  color: #FFFFFF;
+  text-decoration: line-through #DBDBDB;
+}
+    .light-mode #settings{
+        background: #303030;
+        color: #FFFFFF;
+        box-shadow: 1px 5px 6px #FFFFFF;
+    }
+    
+     .light-mode #settings input {
+        accent-color:#FF9D03;
+    }
+    
+   #unit-preferences {
+       position: relative;
+       background: #FF9D03;
+       color: #FFFFFF;
+    margin: 10px;
+    left: 60px;
+    width: 30%;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    
+   }
+   
+   form p{
+       position: relative;
+       font-size: 20px;
+       left: 10px;
+   }
+   
+  
+   
+         .light-mode #up-container{
+             background: #FF9D03;
+             
+         }
+         
+         
+         .light-mode .time-background{
+           background:#303030 ;
+           border: solid #FF9803;
+    }
